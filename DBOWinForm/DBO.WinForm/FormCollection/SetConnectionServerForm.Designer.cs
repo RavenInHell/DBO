@@ -32,11 +32,11 @@
             this.pnl_SetConnectionServer_Head = new System.Windows.Forms.Panel();
             this.lbl_SetConnectionServer_HeadTitle = new System.Windows.Forms.Label();
             this.pnl_SetConnectionServer_Background = new System.Windows.Forms.Panel();
-            this.lbl_SetConnect_ServerType = new System.Windows.Forms.Label();
-            this.lbl_SetConnect_UserAccount = new System.Windows.Forms.Label();
-            this.lbl_SetConnect_Authentication = new System.Windows.Forms.Label();
-            this.lbl_SetConnect_ServerPortName = new System.Windows.Forms.Label();
-            this.lbl_SetConnect_UserPassword = new System.Windows.Forms.Label();
+            this.lbl_SetConnection_ServerType = new System.Windows.Forms.Label();
+            this.lbl_SetConnection_UserAccount = new System.Windows.Forms.Label();
+            this.lbl_SetConnection_Authentication = new System.Windows.Forms.Label();
+            this.lbl_SetConnection_ServerPortName = new System.Windows.Forms.Label();
+            this.lbl_SetConnection_UserPassword = new System.Windows.Forms.Label();
             this.chk_SetConnection_RemberPssword = new System.Windows.Forms.CheckBox();
             this.pic_SetConnection_BelowSplitLine = new System.Windows.Forms.PictureBox();
             this.pic_SetConnection_CenterSpliterLine = new System.Windows.Forms.PictureBox();
@@ -83,11 +83,11 @@
             this.pnl_SetConnectionServer_Background.Controls.Add(this.cmb_SetConnection_ServerType);
             this.pnl_SetConnectionServer_Background.Controls.Add(this.pic_SetConnection_BelowSplitLine);
             this.pnl_SetConnectionServer_Background.Controls.Add(this.chk_SetConnection_RemberPssword);
-            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnect_UserPassword);
-            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnect_ServerPortName);
-            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnect_Authentication);
-            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnect_UserAccount);
-            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnect_ServerType);
+            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnection_UserPassword);
+            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnection_ServerPortName);
+            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnection_Authentication);
+            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnection_UserAccount);
+            this.pnl_SetConnectionServer_Background.Controls.Add(this.lbl_SetConnection_ServerType);
             this.pnl_SetConnectionServer_Background.Controls.Add(this.pic_SetConnection_CenterSpliterLine);
             this.pnl_SetConnectionServer_Background.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_SetConnectionServer_Background.Location = new System.Drawing.Point(0, 0);
@@ -95,55 +95,55 @@
             this.pnl_SetConnectionServer_Background.Size = new System.Drawing.Size(730, 377);
             this.pnl_SetConnectionServer_Background.TabIndex = 1;
             // 
-            // lbl_SetConnect_ServerType
+            // lbl_SetConnection_ServerType
             // 
-            this.lbl_SetConnect_ServerType.AutoSize = true;
-            this.lbl_SetConnect_ServerType.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_SetConnect_ServerType.Location = new System.Drawing.Point(39, 104);
-            this.lbl_SetConnect_ServerType.Name = "lbl_SetConnect_ServerType";
-            this.lbl_SetConnect_ServerType.Size = new System.Drawing.Size(156, 23);
-            this.lbl_SetConnect_ServerType.TabIndex = 2;
-            this.lbl_SetConnect_ServerType.Text = "服务器类型（T）：";
+            this.lbl_SetConnection_ServerType.AutoSize = true;
+            this.lbl_SetConnection_ServerType.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_SetConnection_ServerType.Location = new System.Drawing.Point(39, 104);
+            this.lbl_SetConnection_ServerType.Name = "lbl_SetConnection_ServerType";
+            this.lbl_SetConnection_ServerType.Size = new System.Drawing.Size(156, 23);
+            this.lbl_SetConnection_ServerType.TabIndex = 2;
+            this.lbl_SetConnection_ServerType.Text = "服务器类型（T）：";
             // 
-            // lbl_SetConnect_UserAccount
+            // lbl_SetConnection_UserAccount
             // 
-            this.lbl_SetConnect_UserAccount.AutoSize = true;
-            this.lbl_SetConnect_UserAccount.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_SetConnect_UserAccount.Location = new System.Drawing.Point(74, 208);
-            this.lbl_SetConnect_UserAccount.Name = "lbl_SetConnect_UserAccount";
-            this.lbl_SetConnect_UserAccount.Size = new System.Drawing.Size(121, 23);
-            this.lbl_SetConnect_UserAccount.TabIndex = 3;
-            this.lbl_SetConnect_UserAccount.Text = "登录名（L）：";
+            this.lbl_SetConnection_UserAccount.AutoSize = true;
+            this.lbl_SetConnection_UserAccount.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_SetConnection_UserAccount.Location = new System.Drawing.Point(74, 208);
+            this.lbl_SetConnection_UserAccount.Name = "lbl_SetConnection_UserAccount";
+            this.lbl_SetConnection_UserAccount.Size = new System.Drawing.Size(121, 23);
+            this.lbl_SetConnection_UserAccount.TabIndex = 3;
+            this.lbl_SetConnection_UserAccount.Text = "登录名（L）：";
             // 
-            // lbl_SetConnect_Authentication
+            // lbl_SetConnection_Authentication
             // 
-            this.lbl_SetConnect_Authentication.AutoSize = true;
-            this.lbl_SetConnect_Authentication.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_SetConnect_Authentication.Location = new System.Drawing.Point(54, 175);
-            this.lbl_SetConnect_Authentication.Name = "lbl_SetConnect_Authentication";
-            this.lbl_SetConnect_Authentication.Size = new System.Drawing.Size(141, 23);
-            this.lbl_SetConnect_Authentication.TabIndex = 4;
-            this.lbl_SetConnect_Authentication.Text = "身份验证（A）：";
+            this.lbl_SetConnection_Authentication.AutoSize = true;
+            this.lbl_SetConnection_Authentication.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_SetConnection_Authentication.Location = new System.Drawing.Point(54, 175);
+            this.lbl_SetConnection_Authentication.Name = "lbl_SetConnection_Authentication";
+            this.lbl_SetConnection_Authentication.Size = new System.Drawing.Size(141, 23);
+            this.lbl_SetConnection_Authentication.TabIndex = 4;
+            this.lbl_SetConnection_Authentication.Text = "身份验证（A）：";
             // 
-            // lbl_SetConnect_ServerPortName
+            // lbl_SetConnection_ServerPortName
             // 
-            this.lbl_SetConnect_ServerPortName.AutoSize = true;
-            this.lbl_SetConnect_ServerPortName.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_SetConnect_ServerPortName.Location = new System.Drawing.Point(39, 138);
-            this.lbl_SetConnect_ServerPortName.Name = "lbl_SetConnect_ServerPortName";
-            this.lbl_SetConnect_ServerPortName.Size = new System.Drawing.Size(156, 23);
-            this.lbl_SetConnect_ServerPortName.TabIndex = 5;
-            this.lbl_SetConnect_ServerPortName.Text = "服务器名称（S）：";
+            this.lbl_SetConnection_ServerPortName.AutoSize = true;
+            this.lbl_SetConnection_ServerPortName.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_SetConnection_ServerPortName.Location = new System.Drawing.Point(39, 138);
+            this.lbl_SetConnection_ServerPortName.Name = "lbl_SetConnection_ServerPortName";
+            this.lbl_SetConnection_ServerPortName.Size = new System.Drawing.Size(156, 23);
+            this.lbl_SetConnection_ServerPortName.TabIndex = 5;
+            this.lbl_SetConnection_ServerPortName.Text = "服务器名称（S）：";
             // 
-            // lbl_SetConnect_UserPassword
+            // lbl_SetConnection_UserPassword
             // 
-            this.lbl_SetConnect_UserPassword.AutoSize = true;
-            this.lbl_SetConnect_UserPassword.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lbl_SetConnect_UserPassword.Location = new System.Drawing.Point(90, 241);
-            this.lbl_SetConnect_UserPassword.Name = "lbl_SetConnect_UserPassword";
-            this.lbl_SetConnect_UserPassword.Size = new System.Drawing.Size(105, 23);
-            this.lbl_SetConnect_UserPassword.TabIndex = 6;
-            this.lbl_SetConnect_UserPassword.Text = "密码（P）：";
+            this.lbl_SetConnection_UserPassword.AutoSize = true;
+            this.lbl_SetConnection_UserPassword.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbl_SetConnection_UserPassword.Location = new System.Drawing.Point(90, 241);
+            this.lbl_SetConnection_UserPassword.Name = "lbl_SetConnection_UserPassword";
+            this.lbl_SetConnection_UserPassword.Size = new System.Drawing.Size(105, 23);
+            this.lbl_SetConnection_UserPassword.TabIndex = 6;
+            this.lbl_SetConnection_UserPassword.Text = "密码（P）：";
             // 
             // chk_SetConnection_RemberPssword
             // 
@@ -226,6 +226,7 @@
             this.btn_SetConnection_ConnectionToServer.TabIndex = 14;
             this.btn_SetConnection_ConnectionToServer.Text = "连接（C）";
             this.btn_SetConnection_ConnectionToServer.UseVisualStyleBackColor = true;
+            this.btn_SetConnection_ConnectionToServer.Click += new System.EventHandler(this.btn_SetConnection_ConnectionToServer_Click);
             // 
             // btn_SetConnection_CancleToServer
             // 
@@ -267,11 +268,11 @@
         private System.Windows.Forms.PictureBox pic_SetConnection_CenterSpliterLine;
         private System.Windows.Forms.PictureBox pic_SetConnection_BelowSplitLine;
         private System.Windows.Forms.CheckBox chk_SetConnection_RemberPssword;
-        private System.Windows.Forms.Label lbl_SetConnect_UserPassword;
-        private System.Windows.Forms.Label lbl_SetConnect_ServerPortName;
-        private System.Windows.Forms.Label lbl_SetConnect_Authentication;
-        private System.Windows.Forms.Label lbl_SetConnect_UserAccount;
-        private System.Windows.Forms.Label lbl_SetConnect_ServerType;
+        private System.Windows.Forms.Label lbl_SetConnection_UserPassword;
+        private System.Windows.Forms.Label lbl_SetConnection_ServerPortName;
+        private System.Windows.Forms.Label lbl_SetConnection_Authentication;
+        private System.Windows.Forms.Label lbl_SetConnection_UserAccount;
+        private System.Windows.Forms.Label lbl_SetConnection_ServerType;
         private System.Windows.Forms.Button btn_SetConnection_ConnectionToServer;
         private System.Windows.Forms.TextBox tb_SetConnection_UserPad;
         private System.Windows.Forms.ComboBox cmb_SetConnection_ServerPortName;

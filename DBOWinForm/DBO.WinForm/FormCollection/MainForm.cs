@@ -25,12 +25,16 @@ namespace DBO.WinForm.FormCollection
         /// <param name="e"></param>
         private void tsb_MainForm_ConnectionToDB_Click(object sender, EventArgs e)
         {
-            setConnectionServerForm = new SetConnectionServerForm
+            if (Application.OpenForms["SetConnectionServerForm"] ==null)
             {
-                //设置服务器连接的窗口屏幕居中（非窗体居中）
-                StartPosition = FormStartPosition.CenterScreen
-            };
-            setConnectionServerForm.Show();
+                setConnectionServerForm = new SetConnectionServerForm
+                {
+                    //设置服务器连接的窗口屏幕居中（非窗体居中）
+                    StartPosition = FormStartPosition.CenterScreen
+                };
+                setConnectionServerForm.Show();
+            }
+            
         }
     }
 }
