@@ -5,12 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DBO.Wpf.CollectionInterface"
         mc:Ignorable="d"
-        Title="数据库连接..." Height="350" Width="520">
-    <Grid>
-        <DockPanel Height="350" Width="520" Background="Red" >
-            <DockPanel MaxHeight="80" MaxWidth="520"  Background="AliceBlue" Margin="0,0,0,270" >
-                <Label/>
-            </DockPanel>
-        </DockPanel>
+        Title="连接到服务器..." Height="350" Width="520">
+    <Grid Height="345" VerticalAlignment="Top">
+
+        <StackPanel Margin="0,0,0,265">
+            <Label Content="数据库连接" FontSize="18" FontFamily="微软雅黑" Height="35" Width="120" Margin="20,20,20,20"/>
+
+        </StackPanel>
+        <Image HorizontalAlignment="Left" Height="7" Margin="10,68,0,0" VerticalAlignment="Top" Width="510" Source="/CollectionInterface/image_SetConnection_CenterSplitLine.png">
+        </Image>
+        <!--左栏lable标签-->
+        <Label Content="数据库类型（T）：" HorizontalAlignment="Left" Margin="85,110,0,0" VerticalAlignment="Top"/>
+        <Label Content="服务器名称（S）：" HorizontalAlignment="Left" Margin="85,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.487,1.773"/>
+        <Label Content="身份验证类型（A）：" HorizontalAlignment="Left" Margin="85,160,0,0" VerticalAlignment="Top"/>
+        <Label Content="登录名（L）：" HorizontalAlignment="Left" Margin="100,185,0,0" VerticalAlignment="Top"/>
+        <Label Content="密码（P）：" HorizontalAlignment="Left" Margin="108,210,0,0" VerticalAlignment="Top"/>
+        <!--右栏数据填充Box-->
+        <ComboBox HorizontalAlignment="Left" Name="cmb_dbType"  Margin="230,113,0,0" VerticalAlignment="Top" Width="165" Height="18" IsEditable="True" />
+        <ComboBox HorizontalAlignment="Left" Name="cmb_serverNameAndPort" Margin="230,138,0,0" VerticalAlignment="Top" Width="165" Height="18" IsEditable="True"/>
+        <ComboBox HorizontalAlignment="Left" Name="cmb_authentication" Margin="230,163,0,0" VerticalAlignment="Top" Width="165" Height="18" IsEditable="True"/>
+        <ComboBox HorizontalAlignment="Left" Name="cmb_account" Margin="245,188,0,0" VerticalAlignment="Top" Width="150" Height="18" IsEditable="True"/>
+        <TextBox HorizontalAlignment="Left" Name="tb_password"  Margin="245,213,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="150" Height="18" />
+        <CheckBox Content="记住密码（M）" Name="chk_rememberPad"  HorizontalAlignment="Left" Margin="245,238,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <Image HorizontalAlignment="Left" Height="7" Margin="10,260,0,0" VerticalAlignment="Top" Width="510" Source="/CollectionInterface/Images/image_Background/image_SetConnection_BelowSplitLine.png">
+        </Image>
+        <Button Content="连接（C）" Name="btn_connectDB"  HorizontalAlignment="Left" Margin="170,272,0,0" VerticalAlignment="Top" Width="70" Click="Btn_connectDB_OnClick"/>
+        <Button Content="取消" Name="btn_cancel" HorizontalAlignment="Left" Margin="260,272,0,0" VerticalAlignment="Top" Width="70" RenderTransformOrigin="-0.043,0.663" Click="Btn_cancel_OnClick"/>
     </Grid>
 </Window>

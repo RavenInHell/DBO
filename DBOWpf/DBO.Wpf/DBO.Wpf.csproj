@@ -7,4 +7,27 @@
     <ApplicationIcon>MainApp.ico</ApplicationIcon>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="CollectionInterface\image_SetConnection_CenterSplitLine.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="CollectionInterface\image_SetConnection_CenterSplitLine.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="CollectionInterface\Resource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="CollectionInterface\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

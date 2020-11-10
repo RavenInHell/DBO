@@ -118,12 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="image_SetConnection_CenterSplitLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\image_SetConnection_CenterSplitLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image_BackGround2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\image_BackGround2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="image_MainForm_AllConnection_Btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\image_Button\image_MainForm_AllConnection_Btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,16 +130,19 @@
   <data name="image_MainForm_CloseConnection_Btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\image_Button\image_MainForm_CloseConnection_Btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image_MainForm_LeftColumn3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\image_MainForm_LeftColumn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image_SetConnectionServer_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\image_SetConnectionServer_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="image_MainForm_Header1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_MainForm_Header1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image_BackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\image_Background\image_BackGround.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image_SetConnectionServer_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\image_Background\image_SetConnectionServer_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="image_SetConnection_BelowSplitLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\image_SetConnection_BelowSplitLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Images\image_Background\image_SetConnection_BelowSplitLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image_SetConnection_CenterSplitLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\image_Background\image_SetConnection_CenterSplitLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

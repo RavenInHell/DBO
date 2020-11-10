@@ -63,9 +63,9 @@ namespace DBO.WinForm.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap image_BackGround2 {
+        internal static System.Drawing.Bitmap image_BackGround {
             get {
-                object obj = ResourceManager.GetObject("image_BackGround2", resourceCulture);
+                object obj = ResourceManager.GetObject("image_BackGround", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,16 +106,6 @@ namespace DBO.WinForm.Properties {
         internal static System.Drawing.Bitmap image_MainForm_Header1 {
             get {
                 object obj = ResourceManager.GetObject("image_MainForm_Header1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap image_MainForm_LeftColumn3 {
-            get {
-                object obj = ResourceManager.GetObject("image_MainForm_LeftColumn3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

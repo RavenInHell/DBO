@@ -15,8 +15,18 @@
             <DockPanel>
 
             <!--中部的左栏-->
-            <DockPanel  x:Name="pnl_LeftColumn" Width="200" Height="562" Background="Red">
-                <Button DockPanel.Dock="Right" x:Name="btn_popup_SetConnection" Click="btn_popup_SetConnection_Click"  Width="45" Height="30" Content="按钮" FontSize="15" FontFamily="微软雅黑"></Button>
+            <DockPanel  x:Name="dkp_LeftColumn" Width="200" Height="562" Background="Red">
+
+                <DockPanel  Name="dkp_LeftColumn_TopMenu"  Width="200" Height="30" Background="LightGray" Margin="0,-530,0,1">
+                    <Button    Name="btn_popup_OpenConnection" Click="btn_popup_OpenConnection_Click" ToolTip="连接数据库"  VerticalAlignment="Stretch"  HorizontalAlignment="Stretch"  Width="27" Height="30"  FontSize="15" FontFamily="微软雅黑">
+                        <Image Stretch="Uniform" Source="Images/image_Button/image_MainForm_OpenConnection_Btn.png" ></Image>
+                    </Button>
+                    <Button  Name="btn_popup_CloseConnection" Click="Btn_popup_CloseConnection_OnClick" Margin="-30,0,120,0"  ToolTip="关闭数据库连接" VerticalAlignment="Stretch"  HorizontalAlignment="Stretch"  Width="27" Height="30"  FontSize="15" FontFamily="微软雅黑">
+                        <Image Stretch="Uniform" Source="Images/image_Button/image_MainForm_CloseConnection_Btn.png" ></Image>
+                    </Button>
+                    
+                </DockPanel>
+                
             </DockPanel>
             <!--内容全局的背景-->
             <Image x:Name="image_BackgroundEntirety" Source="..\CollectionInterface\Images\image_Background\image_BackGround.jpg" />

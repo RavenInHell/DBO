@@ -111,17 +111,14 @@
     <None Include="Resources\image_MainForm_LeftColumn2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Images\image_MainForm_LeftColumn.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Images\image_BackGround2.jpg" />
-    <None Include="Images\image_BackGround.jpg" />
     <None Include="Images\image_Button\image_MainForm_AllConnection_Btn.png" />
     <None Include="Images\image_Button\image_MainForm_OpenConnection_Btn.png" />
     <None Include="Images\image_Button\image_MainForm_CloseConnection_Btn.png" />
-    <None Include="Images\image_SetConnectionServer_.jpg" />
-    <None Include="Images\image_SetConnection_CenterSplitLine.png" />
-    <None Include="Images\image_SetConnection_BelowSplitLine.png" />
+    <None Include="Images\image_Background\image_BackGround.jpg" />
+    <None Include="Images\image_Background\image_BackGround2.jpg" />
+    <None Include="Images\image_Background\image_SetConnectionServer_.jpg" />
+    <None Include="Images\image_Background\image_SetConnection_CenterSplitLine.png" />
+    <None Include="Images\image_Background\image_SetConnection_BelowSplitLine.png" />
     <Content Include="MainApp.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

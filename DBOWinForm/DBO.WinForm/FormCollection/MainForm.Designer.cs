@@ -136,7 +136,7 @@
             // pic_MainForm_BackGround
             // 
             this.pic_MainForm_BackGround.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pic_MainForm_BackGround.Image = global::DBO.WinForm.Properties.Resources.image_BackGround2;
+            this.pic_MainForm_BackGround.Image = global::DBO.WinForm.Properties.Resources.image_BackGround;
             this.pic_MainForm_BackGround.Location = new System.Drawing.Point(0, 81);
             this.pic_MainForm_BackGround.Name = "pic_MainForm_BackGround";
             this.pic_MainForm_BackGround.Size = new System.Drawing.Size(1405, 605);
